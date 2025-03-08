@@ -15,7 +15,7 @@ const GreetingApp = () => {
         }
         try {
             // Axios ka upyog karke server se data prapt karna
-            const response = await axios.get(`https://screening-task-backend-gy7q.onrender.com/api/greet?name=${name}`);
+            const response = await axios.get(`https://screening-task-frontend-ug3v.onrender.com/api/greet?name=${name}`);
             setMessage(response.data.message); // Server se prapt message set kare
         } catch (error) {
             setMessage("Error fetching greeting."); // Agar koi truti ho to message dikhaye
