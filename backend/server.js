@@ -14,7 +14,7 @@ app.get("/api/greet", (req, res) => {
 });
 
 // Start the server
-const PORT = 5000;
+const PORT = 'https://screening-task-frontend-ug3v.onrender.com';
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
